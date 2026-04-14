@@ -1,0 +1,24 @@
+{
+  "name": "missed-call-textback",
+  "version": "1.0.0",
+  "description": "Self-hosted missed call SMS autoresponder with optional AI conversation layer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod",
+    "test": "node scripts/test-webhook.js"
+  },
+  "dependencies": {
+    "twilio": "^5.3.0",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": ["twilio", "sms", "missed-call", "autoresponder", "trades", "hvac"],
+  "license": "MIT"
+}
